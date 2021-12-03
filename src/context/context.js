@@ -19,6 +19,7 @@ export const Provider = ({children}) => {
             payload: transaction
         });
     }
+    console.group(transactions);
 
 
     return (
