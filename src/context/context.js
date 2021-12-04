@@ -19,13 +19,14 @@ export const Provider = ({children}) => {
             payload: transaction
         });
     }
-    console.group(transactions);
+    
 
 
     return (
         <ExpenseTrackerContext.Provider value={{
             deleteTransaction,
             addTransaction,
+            transactions
         }}>
             {children}
         </ExpenseTrackerContext.Provider>
