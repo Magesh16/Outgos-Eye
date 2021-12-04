@@ -19,7 +19,7 @@ const Main= ()=> {
             </CardContent>    
 
             <CardContent className={classes.cardContent}>
-                <Grid container spacing={2}>
+                <Grid container spacing={3}>
                     <Grid item xs={12}>
                      <List/>
                     </Grid>
